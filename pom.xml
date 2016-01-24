@@ -34,7 +34,7 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <url>https://github.com/Quaza-Solutions/quaza-maven-parent.git</url>
+            <url>https://github.com/manyce400/quaza-maven-parent</url>
         </repository>
     </distributionManagement>
 
