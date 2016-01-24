@@ -31,6 +31,13 @@
         <tag>HEAD</tag>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://github.com/Quaza-Solutions/quaza-maven-parent.git</url>
+        </repository>
+    </distributionManagement>
+
     <dependencyManagement>
 
         <dependencies>
