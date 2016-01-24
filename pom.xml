@@ -15,6 +15,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- Github servers configuration.  This is defined in settings.xml file -->
+        <github.global.server>github</github.global.server>
+
         <spring.boot.version>1.3.0.RELEASE</spring.boot.version>
         <java.version>1.8</java.version>
         <mockito.version>2.0.2-beta</mockito.version>
@@ -22,9 +26,10 @@
     </properties>
 
     <scm>
-        <connection>scm:git:git@github.com:Quaza-Solutions/quaza-maven-parent.git</connection>
-        <url>scm:git:git@github.com:Quaza-Solutions/quaza-maven-parent.git</url>
-        <developerConnection>scm:git:git@github.com:Quaza-Solutions/quaza-maven-parent.git</developerConnection>
+        <connection>scm:git:https://github.com/Quaza-Solutions/quaza-maven-parent.git</connection>
+        <developerConnection>scm:git:https://github.com/Quaza-Solutions/quaza-maven-parent.git</developerConnection>
+        <url>https://github.com/manyce400/quaza-maven-parent</url>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencyManagement>
